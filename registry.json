@@ -4,6 +4,7 @@
       "season_version": "1.0.0.0",
       "type": "binary",
       "signed_by": "genz_labs",
+      "price": "free",
       "requires_features": [],
       "download_url": "https://github.com/skibusts-ops/zmark/releases/latest/download/helloworld"
     },
@@ -11,6 +12,7 @@
       "season_version": "2.0.0.0",
       "type": "dlc",
       "ecosystem": "helloworld",
+      "price": "29.99",
       "requires_features": ["magic_neural_net", "quantum_print"],
       "download_url": "https://github.com/skibusts-ops/zmark/releases/latest/download/hw-dlc.wasm"
     }
