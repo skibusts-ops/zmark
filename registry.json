@@ -9,6 +9,7 @@
     "hw-dlc": {
       "season_version": "2.0.0.0",
       "type": "dlc",
+      "ecosystem": "helloworld",
       "requires_features": ["magic_neural_net", "quantum_print"],
       "download_url": "https://github.com/skibusts-ops/zmark/releases/latest/download/hw-dlc.wasm"
     }
