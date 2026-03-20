@@ -1,12 +1,78 @@
 {
   "packages": {
-    "helloworld": {
+    "zcube": {
       "season_version": "1.0.0.0",
       "type": "binary",
       "signed_by": "genz_labs",
       "price": "free",
       "requires_features": [],
+      "download_url": "https://github.com/skibusts-ops/zmark/releases/latest/download/zcube"
+    },
+    "zstudio": {
+      "season_version": "2.0.0.0",
+      "type": "binary",
+      "signed_by": "genz_labs",
+      "price": "free",
+      "requires_features": [],
+      "download_url": "https://github.com/skibusts-ops/zmark/releases/latest/download/zstudio"
+    },
+    "zwebserver": {
+      "season_version": "1.0.0.0",
+      "type": "binary",
+      "signed_by": "genz_labs",
+      "price": "free",
+      "requires_features": [],
+      "download_url": "https://github.com/skibusts-ops/zmark/releases/latest/download/zwebserver"
+    },
+    "helloworld": {
+      "season_version": "1.0.0.0",
+      "type": "binary",
+      "signed_by": "community_dev",
+      "price": "free",
+      "requires_features": [],
       "download_url": "https://github.com/skibusts-ops/zmark/releases/latest/download/helloworld"
+    },
+    "nexus-db": {
+      "season_version": "3.0.0.0",
+      "type": "binary",
+      "price": "99.99",
+      "requires_features": [],
+      "download_url": "https://github.com/skibusts-ops/zmark/releases/latest/download/nexus-db"
+    },
+    "real-time-analytics": {
+      "season_version": "1.0.0.0",
+      "type": "dlc",
+      "ecosystem": "zcube",
+      "signed_by": "genz_labs",
+      "price": "29.99",
+      "requires_features": ["event_sourcing", "distributed_logging"],
+      "download_url": "https://github.com/skibusts-ops/zmark/releases/latest/download/real-time-analytics.wasm"
+    },
+    "ai-copilot": {
+      "season_version": "2.0.0.0",
+      "type": "dlc",
+      "ecosystem": "zstudio",
+      "signed_by": "genz_labs",
+      "price": "49.99",
+      "requires_features": ["gpu_compute", "ast_parser"],
+      "download_url": "https://github.com/skibusts-ops/zmark/releases/latest/download/ai-copilot.wasm"
+    },
+    "legacy-db-bridge": {
+      "season_version": "1.0.0.0",
+      "type": "dlc",
+      "ecosystem": "zwebserver",
+      "price": "free",
+      "requires_features": ["tcp_sockets"],
+      "download_url": "https://github.com/skibusts-ops/zmark/releases/latest/download/legacy-db-bridge.wasm"
+    },
+    "time-travel-debugger": {
+      "season_version": "2.0.0.0",
+      "type": "dlc",
+      "ecosystem": "zcube",
+      "signed_by": "genz_labs",
+      "price": "14.99",
+      "requires_features": ["event_sourcing"],
+      "download_url": "https://github.com/skibusts-ops/zmark/releases/latest/download/time-travel-debugger.wasm"
     },
     "hw-dlc": {
       "season_version": "2.0.0.0",
