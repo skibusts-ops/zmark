@@ -3,6 +3,7 @@
     "helloworld": {
       "season_version": "1.0.0.0",
       "type": "binary",
+      "signed_by": "genz_labs",
       "requires_features": [],
       "download_url": "https://github.com/skibusts-ops/zmark/releases/latest/download/helloworld"
     },
